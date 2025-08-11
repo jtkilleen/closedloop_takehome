@@ -11,7 +11,6 @@ services:
     volumes:
       # Mount current directory for development, excluding .venv
       - .:/app
-      - ./.venv:/dev/null # Exclude .venv from container access
     ports:
       # Expose port for potential web interface
       - "8000:8000"
