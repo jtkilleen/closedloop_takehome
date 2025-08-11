@@ -1,0 +1,21 @@
+services:
+  medical-diagnostic-agent:
+    build: .
+    container_name: medical-diagnostic-agent
+    environment:
+      # Google API Key - set this in your environment or .env file
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+      # Python settings
+      - PYTHONUNBUFFERED=1
+      - PYTHONDONTWRITEBYTECODE=1
+    volumes:
+      # Mount current directory for development, excluding .venv
+      - .:/app
+      - ./.venv:/dev/null # Exclude .venv from container access
+    ports:
+      # Expose port for potential web interface
+      - "8000:8000"
+    stdin_open: true
+    tty: true
+    # Command can be overridden for different modes
+    command: [ "uv", "run", "adk", "web", "--host", "0.0.0.0" ]

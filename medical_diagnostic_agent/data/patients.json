@@ -1,0 +1,65 @@
+{
+  "patients": {
+    "sarah": {
+      "name": "Sarah",
+      "age": 28,
+      "occupation": "Software Engineer",
+      "lifestyle": {
+        "work_environment": "Long hours at computer",
+        "exercise": "Regular exercise on weekends",
+        "diet_habits": "Drinks 3-4 cups of coffee daily",
+        "sleep_pattern": "Unknown",
+        "stress_level": "Moderate (long work hours)"
+      },
+      "medical_history": [],
+      "risk_factors": [
+        "sedentary_work",
+        "high_caffeine_intake"
+      ],
+      "previous_visits": [],
+      "notes": "Software engineer with desk job, active on weekends, high caffeine consumption"
+    },
+    "robert": {
+      "name": "Robert",
+      "age": 55,
+      "occupation": "Construction Foreman",
+      "lifestyle": {
+        "work_environment": "Physically active job",
+        "exercise": "Daily physical activity at work",
+        "smoking_history": "Smoker for 20 years, quit 6 months ago",
+        "sleep_pattern": "Unknown",
+        "stress_level": "Moderate (job responsibilities)"
+      },
+      "medical_history": [
+        "former_smoker"
+      ],
+      "risk_factors": [
+        "smoking_history",
+        "age_over_50",
+        "physically_demanding_job"
+      ],
+      "previous_visits": [],
+      "notes": "Construction foreman, physically active, former smoker (quit 6 months ago after 20 years)"
+    },
+    "emma": {
+      "name": "Emma",
+      "age": 34,
+      "occupation": "Elementary School Teacher",
+      "lifestyle": {
+        "work_environment": "Teaching young children",
+        "family_situation": "Mother of two young children",
+        "sleep_pattern": "5-6 hours nightly (inadequate)",
+        "stress_pattern": "High (work and parenting stress)",
+        "exercise": "Limited due to time constraints"
+      },
+      "medical_history": [],
+      "risk_factors": [
+        "chronic_sleep_deprivation",
+        "high_stress",
+        "working_mother"
+      ],
+      "previous_visits": [],
+      "notes": "Elementary school teacher, mother of two, chronically sleep-deprived (5-6 hours), high stress levels"
+    }
+  }
+}

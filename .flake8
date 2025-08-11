@@ -1,0 +1,7 @@
+[flake8]
+max-line-length = 88
+extend-ignore = E203, W503
+exclude = .venv,__pycache__,.git,.pytest_cache
+per-file-ignores =
+    # Allow longer lines in agent.py for prompts and complex logic
+    medical_diagnostic_agent/agent.py:E501
